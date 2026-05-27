@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Samantha Hernandez Ramirez | Agentic AI Lab</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --black:#1a0010;
+      --crimson:#cd003b;
+      --white:#ffffff;
+      --light:#f5f5f5;
+      --border:#dddddd;
+      --text:#333333;
+    }
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:'Space Grotesk', sans-serif;
+      background:var(--light);
+      color:var(--text);
+      line-height:1.7;
+    }
+
+    header{
+      background:var(--black);
+      color:white;
+      padding:80px 10%;
+      border-bottom:6px solid var(--crimson);
+    }
+
+    header h1{
+      font-family:'Oswald', sans-serif;
+      font-size:4rem;
+      text-transform:uppercase;
+      letter-spacing:2px;
+      margin-bottom:10px;
+    }
+
+    header h2{
+      color:var(--crimson);
+      font-weight:500;
+      margin-bottom:20px;
+    }
+
+    header p{
+      max-width:850px;
+      font-size:1.1rem;
+    }
+
+    .container{
+      width:90%;
+      max-width:1200px;
+      margin:auto;
+      padding:50px 0;
+    }
+
+    .card{
+      background:white;
+      padding:35px;
+      margin-bottom:35px;
+      border-left:6px solid var(--crimson);
+      box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .card h3{
+      font-family:'Oswald', sans-serif;
+      text-transform:uppercase;
+      letter-spacing:1px;
+      margin-bottom:20px;
+      color:var(--black);
+      font-size:2rem;
+    }
+
+    .card p{
+      margin-bottom:15px;
+    }
+
+    .reflection{
+      background:#fff7f9;
+      padding:20px;
+      border:1px solid #ffd1dc;
+      margin-top:20px;
+    }
+
+    .reflection h4{
+      color:var(--crimson);
+      margin-bottom:10px;
+      font-size:1.1rem;
+    }
+
+    .code-block{
+      background:#111;
+      color:#f5f5f5;
+      padding:20px;
+      overflow-x:auto;
+      margin-top:20px;
+      border-radius:4px;
+      font-size:0.9rem;
+    }
+
+    .image-placeholder{
+      background:#e9e9e9;
+      border:2px dashed #bbb;
+      padding:60px;
+      text-align:center;
+      margin-top:25px;
+      color:#777;
+    }
+
+    .takeaways{
+      background:var(--black);
+      color:white;
+      padding:40px;
+      border-left:6px solid var(--crimson);
+    }
+
+    .takeaways h3{
+      color:white;
+      margin-bottom:20px;
+    }
+
+    ul{
+      padding-left:20px;
+    }
+
+    li{
+      margin-bottom:12px;
+    }
+
+    footer{
+      background:var(--black);
+      color:white;
+      text-align:center;
+      padding:40px 20px;
+      border-top:6px solid var(--crimson);
+      margin-top:50px;
+    }
+
+    a{
+      color:var(--crimson);
+      text-decoration:none;
+      font-weight:600;
+    }
+
+    .badge{
+      display:inline-block;
+      background:var(--crimson);
+      color:white;
+      padding:6px 12px;
+      margin:5px 5px 0 0;
+      font-size:0.8rem;
+      text-transform:uppercase;
+      letter-spacing:1px;
+    }
+
+    @media(max-width:768px){
+
+      header h1{
+        font-size:2.5rem;
+      }
+
+      .card{
+        padding:25px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Samantha Hernandez Ramirez</h1>
+  <h2>Agentic AI Lab: From Healthcare Insurance Advocacy to Personal AI Agents</h2>
+  <p>
+    MIS 432 · AI in Business · Western Washington University
+  </p>
+
+  <br><br>
+
+  <p>
+    In this lab, I built multiple AI agents using n8n workflows and large language models to explore how agentic AI systems can automate complex business tasks. I designed an AI Insurance Advocate capable of reviewing denied insurance claims, retrieving patient and policy information, and drafting appeal letters with evidence-based reasoning. I also tested the system’s weaknesses, audited its outputs, and developed governance recommendations for deploying AI safely in healthcare environments. This project showed me that building the workflow, governance, and oversight around AI matters just as much as the AI model itself.
+  </p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h3>1. What is Agentic AI?</h3>
+
+    <p>
+      Agentic AI differs from normal AI chatbots because it can use tools and decide its own sequence of actions to accomplish a goal. Traditional LLMs only respond to prompts, while agentic systems can observe, think, act, and check results through connected workflows.
+    </p>
+
+    <div class="reflection">
+      <h4>Reflection</h4>
+
+      <p>
+        One multi-step task I regularly do is organizing group projects for college classes. A Level 2 agent would only help when I directly instruct it step-by-step. A Level 3 agentic workflow could independently check assignment requirements, compare schedules, identify missing work, and generate task assignments automatically. I would still want humans involved for final approvals and accountability.
+      </p>
+    </div>
+
+    <div class="badge">LLMs</div>
+    <div class="badge">AI Agents</div>
+    <div class="badge">Agentic AI</div>
+    <div class="badge">n8n</div>
+  </div>
+
+  <div class="card">
+    <h3>2. Building the AI Insurance Advocate</h3>
+
+    <p>
+      I built an AI Insurance Advocate in n8n using a Chat Trigger, AI Agent node, Patient Chart tool, and Policy Lookup tool. The workflow allowed the AI to read insurance denial letters, gather supporting medical evidence, compare policy criteria, and draft professional appeal letters.
+    </p>
+
+    <div class="image-placeholder">
+      INSERT WORKFLOW SCREENSHOT HERE
+    </div>
+
+    <div class="code-block">
+<pre>
+SYSTEM PROMPT:
+
+You are an insurance appeal specialist working for a hospital.
+Your job is to help the hospital challenge insurance claim denials
+that you believe were wrongly denied, so that patients get the care they need.
+
+When you receive a denial letter:
+1. Read the denial carefully
+2. Pull the patient's medical records
+3. Pull insurance policy criteria
+4. Draft a professional appeal letter
+
+Only use facts from the chart and policy.
+Never hallucinate or fabricate information.
+</pre>
+    </div>
+
+    <div class="reflection">
+      <h4>Reflection</h4>
+
+      <p>
+        The AI Insurance Advocate followed the observe → think → act → check workflow automatically. It pulled patient records, checked policy requirements, and drafted the appeal without needing direct step-by-step prompts. Watching the logs made the workflow feel like a true agentic AI system rather than a chatbot.
+      </p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>3. Breaking the Advocate</h3>
+
+    <p>
+      To test the workflow’s limits, I deactivated the Patient Chart tool and reran the denial case. Without access to the chart, the AI stopped behaving like a Level 3 agent and instead asked the user for missing information.
+    </p>
+
+    <div class="image-placeholder">
+      INSERT AGENT LOG SCREENSHOT HERE
+    </div>
+
+    <div class="reflection">
+      <h4>Reflection</h4>
+
+      <p>
+        The AI did not hallucinate patient details because the system prompt specifically instructed it not to fabricate information. This showed how important governance and guardrails are in high-stakes AI systems like healthcare or banking.
+      </p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>4. Second Patient — James Whitfield</h3>
+
+    <p>
+      I expanded the workflow by adding a second patient case involving a denied cardiac stress test. Unlike the first case, the Policy Lookup tool did not contain the correct cardiac policy, forcing the AI to work with incomplete information.
+    </p>
+
+    <div class="reflection">
+      <h4>Reflection</h4>
+
+      <p>
+        The denial claimed James Whitfield had no cardiac symptoms documented within 30 days, but the chart clearly documented chest tightness during the March 18 follow-up visit. The AI identified the same evidence I found and used it to support the appeal.
+      </p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>5. Auditing the Output</h3>
+
+    <p>
+      I manually reviewed the AI-generated appeal letter line by line against the patient chart and insurance policy documents. This audit process helped determine whether the AI added unsupported claims or omitted important evidence.
+    </p>
+
+    <div class="reflection">
+      <h4>Reflection</h4>
+
+      <p>
+        The appeal letter was mostly accurate, but I learned how important human auditing remains even when the AI output appears professional. In a real hospital environment, manually reviewing every letter would not scale, so I proposed automated validation systems combined with risk-based human review.
+      </p>
+    </div>
+
+    <div class="badge">AI Auditing</div>
+    <div class="badge">Hallucinations</div>
+    <div class="badge">Validation</div>
+  </div>
+
+  <div class="card">
+    <h3>6. AI Governance</h3>
+
+    <p>
+      I evaluated the AI Insurance Advocate using a five-layer governance framework:
+    </p>
+
+    <ul>
+      <li><strong>Purpose & Scope:</strong> Draft appeals only — never make medical decisions or submit automatically.</li>
+      <li><strong>Data Access & Privacy:</strong> Access only minimum necessary patient data under HIPAA protections.</li>
+      <li><strong>Human Oversight:</strong> Human reviewers approve all submissions before sending.</li>
+      <li><strong>Auditing & Accountability:</strong> Track hallucination rates, factual errors, and appeal outcomes.</li>
+      <li><strong>Monitoring & Sunset:</strong> Monitor policy changes and declining system performance over time.</li>
+    </ul>
+
+    <div class="reflection">
+      <h4>Reflection</h4>
+
+      <p>
+        The hardest governance challenge at scale would be testing and auditing because even small error rates could impact many patients. Governance systems need continuous monitoring and accountability structures to remain safe and reliable.
+      </p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>7. Should We Be Doing This?</h3>
+
+    <p>
+      One of the biggest ethical concerns with agentic AI in healthcare is errors at scale. Even a small hallucination rate could impact many patients if hospitals process thousands of denials each month.
+    </p>
+
+    <div class="reflection">
+      <h4>Reflection</h4>
+
+      <p>
+        I believe the benefits outweigh the risks because many patients currently never appeal denied claims due to staffing limitations. However, the AI should always include evidence verification systems and human review checkpoints before submissions occur.
+      </p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>8. My Personal Agent</h3>
+
+    <p>
+      I also designed a personal AI agent using the same architecture pattern. The workflow used a Chat Trigger, AI Agent node, and supporting tools to help automate planning tasks and decision-making.
+    </p>
+
+    <div class="image-placeholder">
+      INSERT PERSONAL AGENT SCREENSHOT HERE
+    </div>
+
+    <div class="reflection">
+      <h4>Reflection</h4>
+
+      <p>
+        I would not fully trust my personal agent unsupervised immediately. It would need to demonstrate consistent reliability over time, maintain transparent logs, and prove it can avoid major mistakes before receiving greater autonomy.
+      </p>
+    </div>
+  </div>
+
+  <div class="takeaways">
+    <h3>Key Takeaways</h3>
+
+    <ul>
+      <li>AI systems are only as trustworthy as the workflows and governance built around them.</li>
+      <li>Agentic AI becomes powerful when connected to tools, not just prompts.</li>
+      <li>Human oversight remains critical in high-stakes industries like healthcare.</li>
+      <li>Auditing and monitoring are essential for scaling AI safely.</li>
+    </ul>
+  </div>
+
+</div>
+
+<footer>
+  <p>
+    Samantha Hernandez Ramirez |
+    samantha@email.com |
+    LinkedIn Profile
+  </p>
+
+  <br>
+
+  <p>
+    MIS 432 · AI in Business · Western Washington University
+  </p>
+</footer>
+
+</body>
+</html>
